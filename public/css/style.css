@@ -25,12 +25,11 @@ p {
 }
 
 hr {
-    /*color:f8c145;*/
     text-align:center;
     border: 0;
     height: 1px;
     width:40%;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(248, 193, 69, 1), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(135, 27, 27, 1), rgba(248, 193, 69, 1), rgba(135, 27, 27, 1));
 }
 
 img { /*#need to change this tag!!!!!!*/
