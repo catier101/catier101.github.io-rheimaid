@@ -1,6 +1,6 @@
 /*this still doesnt work....*/
 body {
-  text-align: center;
+        text-align: center;
 
 }
 
@@ -28,7 +28,7 @@ hr {
         color:f8c145;
 }
 
-#logo { /*#need to change this tag!!!!!!*/
+img { /*#need to change this tag!!!!!!*/
         height:50%;
         width:50%;
       }
