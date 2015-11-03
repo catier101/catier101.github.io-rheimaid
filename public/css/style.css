@@ -28,7 +28,7 @@ hr {
     text-align:center;
     border: 0;
     height: 1px;
-    width:40%;
+    width:25%;
     background-image: linear-gradient(to right, rgba(135, 27, 27, 1), rgba(248, 193, 69, 1), rgba(135, 27, 27, 1));
 }
 
