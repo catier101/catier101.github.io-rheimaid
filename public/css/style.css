@@ -1,0 +1,34 @@
+
+body {
+        align:center;
+
+}
+
+h1 {
+        color:#871b1b;
+}
+
+h2 {
+        color:#871b1b;
+}
+
+h5{
+        color:#f8c145;
+}
+
+h6 {
+        color:#871b1b;
+}
+
+p {
+        color:#f8c145;
+}
+
+hr {
+        color:f8c145;
+}
+
+.logo {
+        height:50%;
+        width:50%;
+      }
