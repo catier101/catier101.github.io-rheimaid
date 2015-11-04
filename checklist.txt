@@ -1,0 +1,4 @@
+1. attach bootstrap source code
+2. make www.rheimaid link to naked domain
+3. download fonts for website
+4. begin dev of actual website...
