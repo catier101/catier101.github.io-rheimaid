@@ -1,7 +1,11 @@
 class MyApp
 
     get '/' do
-      erb :index
+      html :index
+    end
+
+    get '/index2' do
+      html :index2
     end
 
 end
