@@ -5,8 +5,12 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  font-family:'Oraniembaum';
 }
 
+h2 {
+  font-family:'Roboto';
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -24,6 +28,7 @@ body {
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
@@ -31,6 +36,7 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+  background-color:
 }
 
 
@@ -41,10 +47,14 @@ body {
 .carousel {
   height: 500px;
   margin-bottom: 60px;
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow:10px 10px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+  text-align:center;
   z-index: 10;
+  top:40%;
 }
 
 /* Declare heights because of positioning of img element */
