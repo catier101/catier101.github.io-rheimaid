@@ -75,7 +75,7 @@ body {
   border-color: #c0392b;
 }
 . .navbar-toggle:hover, .navbar .navbar-toggle:focus {
-  background-color: none;
+  background-color: pink;
 }
 .navbar .navbar-toggle .icon-bar {
   background-color: #ecf0f1;
@@ -139,6 +139,7 @@ body {
 }
 .marketing h2 {
   font-weight: normal;
+  color:#871b1b;
 }
 .marketing .col-lg-4 p {
   margin-right: 10px;
