@@ -1,6 +1,6 @@
-1. attach bootstrap source code
-3. download fonts for website
-4. begin dev of actual website...
+1. adjust navbar to less opaque and longer (?)
+2. get descriptions/images for captions, etc
+3. format carousel
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
