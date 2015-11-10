@@ -65,9 +65,9 @@ body {
 .navbar .navbar-nav > li > a {
   color: #ecf0f1;
 }
-/*.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li {
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li {
   color: white;
-}*/
+}
 .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover{
   color: #871b1b;
 }
