@@ -108,7 +108,7 @@ body {
   height: 500px;
   margin-bottom: 60px;
   font-family: 'Titillium Web', sans-serif;
-  text-shadow:10px 10px;
+  /*text-shadow:10px 10px;*/
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -119,7 +119,7 @@ body {
 
 .carousel-caption > h1 {
   font-size:60px;
-  text-shadow:2px 2px #787878;
+  /*text-shadow:2px 2px #787878;*/
   font-weight: bold;
 }
 
@@ -160,6 +160,11 @@ body {
   margin-left: 10px;
 }
 
+.sauce {
+  height:175px;
+  width:175px;
+}
+
 
 /* Featurettes
 ------------------------- */
@@ -173,11 +178,6 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
-}
-
-.sauce {
-  height:175px;
-  width:175px;
 }
 
 
