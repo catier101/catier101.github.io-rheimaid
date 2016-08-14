@@ -3,7 +3,6 @@
 
 body {
         text-align: center;
-
 }
 
 h1 {
@@ -45,7 +44,16 @@ hr {
   width:20%;
 }
 
-img { /*#need to change this tag!!!!!!*/
+.logo { /*#need to change this tag!!!!!!*/
         height:25%;
         width:25%;
       }
+
+.foodies{
+  display:inline-block;
+  margin-top:20px;
+}
+
+span{
+  margin-bottom:20px;
+}
