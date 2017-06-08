@@ -73,6 +73,10 @@ body {
   margin-top:5rem;
 }
 
+.sm {
+  border:none;
+}
+
 /* PAGE FOOTER */
 
 footer {
