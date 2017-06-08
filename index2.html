@@ -2,212 +2,134 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="public/images/logo.JPG">
+    <link rel="icon" href="../../favicon.ico">
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <title>Album example for Bootstrap</title>
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-
-
-    <title>Rhei-Maid</title>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Jura|Assistant" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
-    <!-- <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href='https://fonts.googleapis.com/css?family=Oranienbaum|Open+Sans|Roboto|Titillium+Web' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="public/css/style2.css" rel="stylesheet">
   </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
 
-        <nav class="navbar navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">More</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index2">RHEI-MAID</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="index2">Home</a></li>
-                <!-- <li><a href="about.html"> About </a></li> -->
-                <li><a href="https://www.indiegogo.com/projects/rhei-maid-llc-artisanal-korean-sauces#/">Indiegogo</a></li>
-                <li class="dropdown">
-                  <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="https://twitter.com/rheimaid">Twitter</a></li>
-                    <!-- <li><a href="placeholder">Contact Us</a></li> -->
-                    <li><a href="https://www.indiegogo.com/projects/rhei-maid-llc-artisanal-korean-sauces#/">Fundraiser</a></li>
-                    <!-- <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="placeholder">Separated link</a></li>
-                    <li><a href="placeholder">One more separated link</a></li> -->
-                  </ul>
-                </li>
-              </ul>
-            </div>
+  <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-light navbar-toggleable-md" style="background-color: #FFFFFF;">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Rhei Maid</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Follow Us!</a>
+              </li>
+            </ul>
           </div>
         </nav>
 
+    <section class="jumbotron text-center">
+      <div class="container">
+        <img class ="img-responsive logo" src="public/images/logo.JPG">
+        <h1 class="jumbotron-heading">Welcome to Rhei Maid</h1>
+        <!-- <p class="lead text-muted">Description here</p> -->
+      </div>
+    </section>
+
+    <div class="album text-muted">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-7">
+              <div class="card card-inverse text-center">
+                <img class = "card-img-top card-img" src="public/images/famedit.jpg">
+                <div class="card-img-overlay">
+                  <h1 class="card-title">About</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <div class="card card-inverse text-center">
+                <img class = "card-img-top card-img" src="public/images/phimg1.jpg">
+                <div class="card-img-overlay">
+                  <h1 class="card-title">FAQ</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card card-inverse text-center">
+                <img class = "card-img-top card-img" src="public/images/phimg2.jpg">
+                <div class="card-img-overlay">
+                  <h1 class="card-title">Products</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-center">
+              <blockquote class="card-block card-blockquote">
+              <p>"The sauces are great buy them."</p>
+              <footer>
+                <small class="text-muted">
+                  - Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          </div>
+            <div class="col-sm-4">
+              <div class="card card-inverse text-center">
+                <img class = "card-img-top card-img" src="public/images/phimg3.jpg">
+                <div class="card-img-overlay">
+                  <h1 class="card-title">Recipes</h4>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
 
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="public/images/koreanrestr.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1 class = "firsth1">We are RHEI-MAID.</h1>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="public/images/phimg1.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>All Natural</h1>
-              <p>Our products are made from all-natural ingredients.</p>
-              <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="public/images/fam.png" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Just like Halmoni's...</h1>
-              <p>Our sauces are traditional Korean recipes that our Halmoni (grandma) brought with her to America.</p>
-            </div>
-          </div>
-        </div>
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+        </p>
       </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle sauce" src="public/images/gochujang.jpg" alt="Generic placeholder image">
-          <h2>Gochujang</h2>
-          <p>Gochujang is a fermented red pepper paste made of rice, red chili pepper, sweetener and soybean. Gochujang is spicy and has a deep, rich flavor that is pungent and loaded with umami. It is essential to Korean cuisine and extremely versatile -- as a finishing sauce, a soup base or by itself as a condiment. Gochujang has a thick consistency due to its rice base and is deeper in flavor than most hot sauces due to its long fermentation period.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle sauce" src="public/images/doenjang.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Doenjang</h2>
-          <p>Doenjang is a fermented soybean paste made of crushed soybeans that are first formed into blocks, dried and fermented. The blocks are then placed in salt water to continue fermenting. When ready, the solids are separated to make doenjang.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle sauce" src="public/images/ganjang.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Ganjang</h2>
-          <p>Ganjang is Korean soy sauce. Ganjang is the liquid that the soybean blocks (doenjang) were immersed in to be fermented. After the solids are separated to make doenjang, the remaining liquid is ganjang.</p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <!-- <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider"> -->
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <!-- <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div> /.container -->
-
+    </footer>
+  </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      $(function () {
+        Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
