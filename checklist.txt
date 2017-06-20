@@ -1,7 +1,9 @@
-Cards: (hover animation)
-- blockquote
-- social media
-- pricing
-
+PAGES:
+1. about
+2. faq
+3. pricing
+4. recipes
+5. products
 
 - edit photos
+- add hover - fade in transitions for titles of cards

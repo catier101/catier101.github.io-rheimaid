@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Album example for Bootstrap</title>
+    <title>Rhei Maid</title>
 
     <link href="https://fonts.googleapis.com/css?family=Abel|Jura|Assistant" rel="stylesheet">
 
@@ -18,37 +18,41 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-light navbar-toggleable-md" style="background-color: #FFFFFF;">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">Rhei Maid</a>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Follow Us!</a>
-              </li>
+    <div class="collapse bg-inverse" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 py-4">
+            <h4 class="text-white">RHEI-MAID, LLC</h3>
+          </div>
+          <div class="col-sm-4 py-4">
+            <ul class="list-unstyled">
+              <li><a href="about.html" class="text-white">About</a></li>
+              <li><a href="faq.html" class="text-white">FAQ</a></li>
+              <li><a href="products.html" class="text-white">Products</a></li>
             </ul>
           </div>
-        </nav>
+          <div class="col-sm-4 py-4">
+            <ul class="list-unstyled">
+              <li><a href="pricing.html" class="text-white">Pricing</a></li>
+              <li><a href="recipes.html" class="text-white">Recipes</a></li>
+              <li><a href="socialmedia.html" class="text-white">Social Media</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-light" style="background-color: #ffffff;">
+      <div class="container d-flex justify-content-between">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
 
     <section class="jumbotron text-center">
       <div class="container">
-        <img class ="img-responsive logo" src="public/images/logo.JPG">
-        <h1 class="jumbotron-heading">Welcome to Rhei Maid</h1>
+        <a href="#"><img class ="img-responsive logo" src="public/images/logo.JPG"></a>
+        <h1 class="jumbotron-heading">Welcome to RHEI-MAID, LLC</h1>
         <!-- <p class="lead text-muted">Description here</p> -->
       </div>
     </section>
