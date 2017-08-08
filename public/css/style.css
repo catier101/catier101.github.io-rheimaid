@@ -70,8 +70,6 @@ body {
     margin-bottom: 0;
 }
 
-.
-
 .nav-masthead .nav-link {
     padding: .25rem 0;
     font-weight: bold;
@@ -98,6 +96,12 @@ body {
     display:inline;
     width:75px;
     height:50px;
+}
+
+#navbarWholesale {
+    min-width:300px;
+    margin-left:3rem;
+    background-color:black;
 }
 
 @media (min-width: 48em) {
