@@ -29,6 +29,7 @@ body {
     height: 100%;
     width:100%;
     background-color:white;
+    font-family:Maven Pro;
 }
 body {
     color: #fff;
@@ -99,9 +100,11 @@ body {
 }
 
 #navbarWholesale {
-    min-width:300px;
+    min-width:250px;
+    max-height:200px;
     margin-left:3rem;
-    background-color:black;
+    /*background-color:black;*/
+    border-radius:5%;
 }
 
 @media (min-width: 48em) {
