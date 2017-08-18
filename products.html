@@ -7,39 +7,95 @@
     <meta name="author" content="">
     <link rel="icon" href="public/images/logo.jpg">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>About Us</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Abel|Maven+Pro|Open+Sans+Condensed:300|Roboto+Condensed:300|Saira+Extra+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
     <!-- Custom styles for this template -->
+    <link href="public/css/pagestyle.css" rel="stylesheet">
     <link href="public/css/products.css" rel="stylesheet">
+
 </head>
 <body>
 
-<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">Carousel</a>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-        </ul>
-        <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+<div class="masthead clearfix">
+    <div class="collapse bg-inverse" id="navbarHeader">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-sm-3 py-4">
+                    <h4><a href="http://rheimaid.com">RHEI MAID, LLC</a></h4>
+                </div>
+                <div class="col-sm-3 py-4">
+                    <ul class="list-unstyled fa-ul">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li>
+                            <a href="" data-toggle="collapse" data-target="#navbarWholesale" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                Wholesale <i class="fa fa-angle-down"></i>
+                            </a>
+                        </li>
+                        <div class="collapse" id="navbarWholesale">
+                            <div class="dropdown-divider text-white"></div>
+                            <div class="p-1 text-left">
+                                <h6 style="color:#c6c9ce;"><strong class="text-white">Specialty Foods Boston:</strong> 137 New Market Square, Boston, MA, 02118 (617.427.3200)</h6>
+                            </div>
+                            <div class="dropdown-divider text-white"></div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-sm-3 py-4">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="" data-toggle="collapse" data-target="#navbarRetail" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                Retail <i class="fa fa-angle-down"></i>
+                            </a>
+                        </li>
+                        <div class="collapse" id="navbarRetail">
+                            <div class="dropdown-divider text-white"></div>
+                            <div class="p-1 text-left">
+                                <ul>
+                                    <li>
+                                        <h6 style="color:#c6c9ce;"><strong class="text-white">American Provisions:</strong> 613 E. Broadway, South Boston, MA 02127 (617.269.6100)</h6>
+                                    </li>
+                                    <li>
+                                        <h6 style="color:#c6c9ce;"><strong class="text-white">Foodies' Markets South End:</strong> 1421 Washington St, Boston, MA 02118 (617.266.9911)</h6>
+                                    </li>
+                                    <li>
+                                        <h6 style="color:#c6c9ce;"><strong class="text-white">Provisions:</strong> 30 Crafts Ave, Northampton, MA 01060 (413.727.3497)</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-divider text-white"></div>
+                        </div>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 py-4">
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="policy.html">Policy</a></li>
+                        <li><a href="termsofuse.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-</nav>
+    <div class="navbar navbar-light" style="background-color: transparent;">
+        <div class="container d-flex justify-content-between">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-md-3">
+            <span>
+              <img class="img-thumbnail border-0 flag" src="public/images/USflag.png"/>
+              <img class="img-thumbnail border-0 flag" src="public/images/Kflag.png"/>
+            </span>
+            </div>
+        </div>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -48,34 +104,17 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+        <div class="carousel-item active text-center">
+            <img class="first-slide img-fluid mx-auto d-block" src="public/images/sauces.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="second-slide" src="public/images/gochujang.jpg" alt="Second slide">
             <div class="container">
-                <div class="carousel-caption d-none d-md-block text-left">
-                    <h1>Example headline.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-                </div>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <img class="third-slide" src="public/images/ganjang.jpeg" alt="Third slide">
             <div class="container">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Another example headline.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-            <div class="container">
-                <div class="carousel-caption d-none d-md-block text-right">
-                    <h1>One more for good measure.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                </div>
             </div>
         </div>
     </div>
